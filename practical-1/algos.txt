@@ -1,0 +1,34 @@
+1. Bubble Sort
+Start with the first element of the array.
+Compare each pair of adjacent elements.
+If the left element is greater than the right element, swap them.
+Repeat the process for all adjacent pairs until the end of the array (one pass). After each pass, the largest element reaches its correct position.
+Repeat the passes until no more swaps are needed or all elements are sorted.
+
+2. Selection Sort
+Assume the first unsorted element is the minimum.
+Compare it with all remaining unsorted elements.
+Find the smallest element in the unsorted portion.
+Swap the smallest element with the first unsorted element.
+Move the sorted boundary one position to the right and repeat until the array is sorted.
+
+3. Insertion Sort
+Consider the first element as already sorted.
+Pick the next element (called the key).
+Compare the key with elements in the sorted portion and shift larger elements one position to the right.
+Insert the key into its correct position.
+Repeat Steps 2–4 until all elements are inserted into the sorted portion.
+
+4. Quick Sort
+Choose a pivot element from the array.
+Partition the array so that elements smaller than the pivot are placed on the left and larger elements on the right.
+Place the pivot in its correct sorted position.
+Recursively apply Quick Sort to the left subarray.
+Recursively apply Quick Sort to the right subarray until each subarray contains one or zero elements.
+
+5. Merge Sort
+Divide the array into two equal halves.
+Recursively divide each half until each subarray contains only one element.
+Compare the elements of two adjacent subarrays.
+Merge the two subarrays into a single sorted subarray.
+Continue merging all sorted subarrays until the complete array becomes sorted.
