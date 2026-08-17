@@ -1,0 +1,13 @@
+Algorithm (Iterative Method)
+Start the program and read the value of n.
+Initialize a variable fact = 1.
+Repeat from 1 to n, multiplying fact by each number.
+Display the factorial value.
+Stop the program.
+
+Algorithm (Recursive Method)
+Start the program and read the value of n.
+If n is 0 or 1, return 1.
+Otherwise, return n × factorial(n − 1).
+Display the factorial value returned by the recursive function.
+Stop the program.

@@ -1,0 +1,9 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.project.sourcePaths": [
+        "practical-1",
+        "practical-2",
+        "practical-3",
+        "practical-4"
+    ]
+}

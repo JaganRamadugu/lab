@@ -1,0 +1,23 @@
+Algorithm for Max Heap Sort (10 Steps)
+Start the algorithm.
+Read the number of elements n and the input array.
+Build a Max Heap from the given array.
+Set the last element as the current heap boundary.
+Swap the root element (maximum element) with the last element of the heap.
+Reduce the heap size by one.
+Apply Max Heapify to the root to restore the Max Heap property.
+Repeat Steps 5–7 until the heap size becomes 1.
+Display the sorted array in ascending order.
+Stop the algorithm.
+
+Algorithm for Min Heap Sort (10 Steps)
+Start the algorithm.
+Read the number of elements n and the input array.
+Build a Min Heap from the given array.
+Set the last element as the current heap boundary.
+Swap the root element (minimum element) with the last element of the heap.
+Reduce the heap size by one.
+Apply Min Heapify to the root to restore the Min Heap property.
+Repeat Steps 5–7 until the heap size becomes 1.
+Reverse the array (if ascending order is required) or display it directly for descending order.
+Stop the algorithm.
