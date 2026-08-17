@@ -1,0 +1,21 @@
+Algorithm for Linear Search
+Start.
+Read the array A of n elements and the search element key.
+Set i = 0.
+Compare A[i] with key. If they are equal, display the position and stop.
+Otherwise, increment i and repeat Step 4 until i = n.
+If the element is not found after checking all elements, display "Element not found".
+Stop.
+
+
+Algorithm for Binary Search
+
+Note: Binary Search requires the array to be sorted.
+
+Start.
+Read the sorted array A of n elements and the search element key.
+Initialize low = 0 and high = n - 1.
+Find the middle element: mid = (low + high) / 2.
+If A[mid] == key, display the position and stop. If A[mid] < key, set low = mid + 1; otherwise, set high = mid - 1.
+Repeat Steps 4–5 until low > high. If the element is not found, display "Element not found"
+Stop.
